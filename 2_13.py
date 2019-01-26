@@ -1,0 +1,17 @@
+text = 'Hello World'
+print(text.ljust(20))
+print(text.rjust(20))
+print(text.center(20))
+print(text.ljust(30))
+print(text.rjust(30))
+print(text.center(30))
+print('1--------------------------------')
+print(text.ljust(6))
+print(text.rjust(6))
+print(text.center(6))
+print('2--------------------------------')
+print(text.rjust(20, '='))
+print(text.rjust(20, '=@@'))
+print(text.center(20, '*'))
+print('3--------------------------------')
+
